@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CookerAPI",
-  description: "A cooking assistant API",
+  title: "CookerAI",
+  description: "A cooking assistant AI",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
