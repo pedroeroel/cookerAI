@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { GoogleGenAI, Type, HarmCategory, HarmBlockThreshold } from "@google/genai";
+import { GoogleGenAI, HarmCategory, HarmBlockThreshold } from "@google/genai";
 import Markdown from "react-markdown";
 
 const gemini = new GoogleGenAI({

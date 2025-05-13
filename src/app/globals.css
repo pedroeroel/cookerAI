@@ -26,5 +26,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: 'Geist', 'Inter', Arial;
+  font-family: 'Geist',  Arial;
 }
