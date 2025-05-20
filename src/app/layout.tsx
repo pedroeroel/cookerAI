@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-      className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen max-w-screen flex-col flex text-gray-100 bg-gray900`}
+      className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen max-w-screen flex-col flex light:text-gray-100 light:bg-gray900 dark:bg-gray-900 dark:text-gray-100 transition duration-200 ease-in-out`}
       >
       <header className="flex flex-col items-center justify-center py-5">
         <h1 className="text-4xl font-bold">CookerAPI</h1>
